@@ -1,0 +1,81 @@
+body {
+    background-color: #eee;
+}
+
+.container {
+    width: 920px;
+    height: 620px;
+    margin: 10px auto;
+    overflow: hidden;
+    border-style: dashed;
+    border-width: 10px;
+    padding: 0px;
+}
+
+.header {
+    padding: 5px;
+    background-color: azure;
+    height: 100px;
+}
+
+.header .brandname {
+    padding: 0px 10px;
+}
+
+.articles {
+    float: left;
+    width: 75%;
+    height: 82%;
+    margin: 5px 0px;
+    background-color: white;
+    overflow: scroll;
+}
+
+.sidebar {
+    float: right;
+    width: 24%;
+    margin: 5px 0px;
+    background-color: white;
+    overflow: scroll;
+    height: 82%;
+}
+
+.articles .post {
+    padding: 5px;
+}
+
+.articles .post .title {
+    color: blue;
+    margin: 0px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.articles .post p {
+    color: gray;
+    margin: 0px;
+    padding: 5px 10px;
+}
+
+.articles .post .date {
+    float: right;
+    color: #aaa;
+    font-size: 0.8em;
+}
+
+.widget {}
+
+.widget h3 {
+    background-color: azure;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+.widget p {
+    padding: 0px;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+}
