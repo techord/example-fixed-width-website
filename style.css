@@ -8,14 +8,14 @@ body {
     margin: 10px auto;
     overflow: hidden;
     border-style: dashed;
-    border-width: 10px;
+    border-width: 5px;
     padding: 0px;
 }
 
 .header {
     padding: 5px;
     background-color: azure;
-    height: 100px;
+    height: 80px;
 }
 
 .header .brandname {
@@ -25,19 +25,19 @@ body {
 .articles {
     float: left;
     width: 75%;
-    height: 82%;
-    margin: 5px 0px;
+    height: 80%;
+    margin: 0px;
     background-color: white;
     overflow: scroll;
 }
 
 .sidebar {
     float: right;
-    width: 24%;
-    margin: 5px 0px;
+    width: 24.5%;
+    margin: 0px;
     background-color: white;
     overflow: scroll;
-    height: 82%;
+    height: 80%;
 }
 
 .articles .post {
@@ -78,4 +78,26 @@ body {
 .footer {
     clear: both;
     text-align: center;
+}
+
+.navbar{
+    background-color: azure;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 4px 0px;;
+    padding: 5px 0px;
+    
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+.navbar ul li a{
+    display:block;
+    text-decoration: none;
+    padding: 0px 0px;
+    color: #000;
 }
